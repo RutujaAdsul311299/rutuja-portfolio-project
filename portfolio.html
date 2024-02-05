@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="portfoliostyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-------header------------------->
+        <div id="header">
+           <div class="container">
+            <nav>
+                <img src="images/logo3.jpeg" class="Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!--<li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>-->
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Rutuja Adsul</span> <br> from Pune Maharashtra</h1>
+            </div>
+           </div> 
+        </div>
+        <!-------------about me --------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/aboutimg.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <br>
+                        <p>Hello, I'm Rutuja Adsul, an aspiring web developer with a passion for unleashing creativity through digital solutions. 
+                            My educational background includes a Masters in MBA with a focus on marketing and business analytics. 
+                            I earned my Bachelor's degree in Computer Applications from Pune, Maharashtra.
+                            <br><br>
+                            Proficient in HTML, CSS, JavaScript, Python, and SQL, 
+                            I am committed to crafting engaging and dynamic web experiences. 
+                            Beyond coding, my interests extend to the realms of art and creativity, including painting, mural art, 
+                            and creating various imaginative projects. My goal is to blend my technical expertise with a keen eye for 
+                            aesthetics to build innovative and visually appealing web applications.
+                            <br><br>
+                            I'm excited about the future of web development, constantly seeking ways to innovate and make a meaningful impact.
+                            <br>
+                            Let's create something amazing together!
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>   
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Hard Skills</span><br>HTML,CSS,JavaScript,Python,SQL</li>
+                                <li><span>Soft Skills</span><br>Communication,team player,leadership</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Business Development Intern</span><br>Inniti Alliance Pune <br>Sep-Nov</li>
+                                <li><span>Sr. Admission Counselor</span><br>Talantedge-Upgrad Pune<br>2022-2023</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><Span>Bacholers of computer application </Span><br>R.K.M. College Akurdi <br> 2017-2020</li>
+                                <li><span>MBA in marketing & Busines analytics</span><br>S.B.Patil Institute of Management <br>2021-2022</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!--------contacts----------->
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact me</h1>
+                        <br>
+                        <p> <i class="fa fa-paper-plane" style="color: rgb(227, 6, 80);" ></i>rutuja.adsul31@gmail.com</p>
+                        <p><i class="fa fa-phone" style="color: rgb(227, 6, 80);"></i>9822494877</p>
+                        <br>
+                        <div class="social-icons">
+                            
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="color: rgb(227, 6, 80);"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook" style="color: rgb(227, 6, 80);"></a></i></a>
+                            <a href="https://www.linkedin.com/in/rutuja-adsul-08b71b1a1https://www.linkedin.com/"><i class="fa fa-linkedin" style="color: rgb(227, 6, 80);"></a></i></a>
+                            <a href="https://www.linkedin.com/in/rutuja-adsul-08b71b1a1https://www.linkedin.com/"><i class="fa fa-twitter" style="color: rgb(227, 6, 80);"></a></i></a>
+
+                        </div>
+                        <div class="btn">
+                        <a href="images/Rutuja Adsul Resume.pdf" download><button>Download CV</button></a>
+                        </div>
+
+                    </div>
+                   
+                    <div class="contact-right">
+                        <form action="" >
+                            <input type="text" name="Name" placeholder="Your Name" required> 
+                            <input type="email" name="email" placeholder="Your Email" required> 
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                            <button type="submit" class="sub-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="portfolio.js">
+            
+        </script>
+    </body>
+</html>
